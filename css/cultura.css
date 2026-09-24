@@ -1,0 +1,16 @@
+.secao-cultura .titulo-secao {
+    color: #6a1b9a;
+    border-bottom-color: #6a1b9a;
+}
+
+.secao-cultura .artigo-noticia {
+    border-left: 4px solid #6a1b9a;
+}
+
+.secao-cultura .categoria {
+    color: #6a1b9a;
+}
+
+.secao-cultura .artigo-noticia h2 {
+    color: #6a1b9a;
+}

@@ -1,0 +1,16 @@
+.secao-tecnologia .titulo-secao {
+    color: #00897b;
+    border-bottom-color: #00897b;
+}
+
+.secao-tecnologia .artigo-noticia {
+    border-left: 4px solid #00897b;
+}
+
+.secao-tecnologia .categoria {
+    color: #00897b;
+}
+
+.secao-tecnologia .artigo-noticia h2 {
+    color: #00897b;
+}

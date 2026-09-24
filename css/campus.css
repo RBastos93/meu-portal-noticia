@@ -1,0 +1,16 @@
+.secao-campus .titulo-secao {
+    color: #1565c0;
+    border-bottom-color: #1565c0;
+}
+
+.secao-campus .artigo-noticia {
+    border-left: 4px solid #1565c0;
+}
+
+.secao-campus .categoria {
+    color: #1565c0;
+}
+
+.secao-campus .artigo-noticia h2 {
+    color: #1565c0;
+}

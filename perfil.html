@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil - Byte News</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/perfil.css">
+</head>
+<body>
+
+    <header class="cabecalho-site">
+        <h1>Byte News</h1>
+        <p>Seu portal de notícias do campus</p>
+    </header>
+
+    <nav class="menu-site">
+        <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="tecnologia.html">Tecnologia</a></li>
+            <li><a href="campus.html">Campus</a></li>
+            <li><a href="cultura.html">Cultura e Lazer</a></li>
+            <li><a href="perfil.html">Perfil</a></li>
+        </ul>
+    </nav>
+
+    <nav class="menu-perfil">
+        <ul>
+            <li><a href="#programacao">Programação</a></li>
+            <li><a href="#hobbies">Hobbies</a></li>
+            <li><a href="#sobre-mim">Sobre Mim</a></li>
+        </ul>
+    </nav>
+
+    <main class="conteudo-perfil">
+
+        <!-- Cabeçalho do perfil: capa + foto + informações pessoais -->
+        <header class="perfil-cabecalho">
+            <div class="perfil-capa">
+                <img src="img/perfil/banner.jpeg" alt="Imagem de capa com tema de tecnologia e inteligência artificial">
+            </div>
+
+            <div class="perfil-topo">
+                <figure class="perfil-foto">
+                    <img src="img/perfil/perfil.jpeg" alt="Fotografia de perfil de Rodrigo Alysson">
+                    <figcaption>Rodrigo Alysson</figcaption>
+                </figure>
+
+                <div class="perfil-identificacao">
+                    <div class="informacoes-perfil">
+                        <h2>Rodrigo Alysson</h2>
+                        <p class="perfil-cargo">Estudante de Redes de Computadores</p>
+                        <p class="perfil-local">Blumenau, Santa Catarina</p>
+                    </div>
+
+                    <div class="perfil-badges">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>Git</span>
+                        <span>Linux</span>
+                        <span>Redes</span>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Corpo do perfil organizado em duas colunas com Flexbox -->
+        <div class="perfil-corpo">
+
+            <div class="coluna-principal">
+
+                <section id="sobre-mim" class="cartao">
+                    <h2>Sobre mim</h2>
+                    <p>Há mais de 7 anos transformo ideias em experiências digitais. Meu forte é o Front-end, onde gosto de arquitetar interfaces e componentes reutilizáveis, mas a curiosidade me levou a também explorar Back-end e mobile híbrido — o que me dá uma visão de ponta a ponta dos projetos.</p>
+                    <p>Trabalho com Angular, React e Vue no dia a dia, e ao longo do caminho descobri que gosto tanto de escrever código quanto de ensinar: liderar e mentorar colegas, desmistificar o que parece complexo e ajudar o time a crescer é o que mais me motiva.</p>
+                    <p>Fora do código, curto academia, sou maratonista de séries (Suits no topo da lista) e sempre topo um bom papo sobre tecnologia ou futebol. Acredito que aprendizado e colaboração não param quando o expediente acaba.</p>
+                </section>
+
+                <section id="programacao" class="cartao">
+                    <h2>Formação e trajetória</h2>
+
+                    <article class="item-trajetoria">
+                        <h3>Analista de Sistemas Sênior</h3>
+                        <p class="instituicao">Softplan &middot; Florianópolis, SC</p>
+                        <p class="periodo">mar. 2024 - dez. 2025</p>
+                        <p>Atuação sênior no desenvolvimento e evolução de produtos, com foco em qualidade técnica e entregas consistentes.</p>
+                    </article>
+
+                    <article class="item-trajetoria">
+                        <h3>Engenheiro de Software Sênior</h3>
+                        <p class="instituicao">NTT DATA Europe &amp; Latam &middot; São Paulo, SP</p>
+                        <p class="periodo">set. 2022 - mar. 2024</p>
+                        <p>Consultor em grandes clientes (seguradora e montadora global), unindo análise de impacto e visão estratégica de produto à liderança técnica do time de Front-end. Concebi e liderei Design Systems completos com Angular e TypeScript, otimizando o tempo de produção e a consistência visual. Fui reconhecido como Arquiteto Front-end dos produtos do cliente.</p>
+                    </article>
+
+                    <article class="item-trajetoria">
+                        <h3>Analista de Desenvolvimento de Software</h3>
+                        <p class="instituicao">TOTVS &middot; Joinville, SC</p>
+                        <p class="periodo">jul. 2020 - set. 2022</p>
+                        <p>Liderei o desenvolvimento de componentes de Design System com Web Components, permitindo reuso entre Angular, React e Vue. Também coordenei o onboarding de novos desenvolvedores, cuidando de ambiente, arquitetura e boas práticas.</p>
+                    </article>
+
+                    <article class="item-trajetoria">
+                        <h3>Analista de Desenvolvimento de Software</h3>
+                        <p class="instituicao">SoftExpert &middot; Joinville, SC</p>
+                        <p class="periodo">out. 2019 - mar. 2020</p>
+                        <p>Construção de componentes de Design System em ReactJS, aplicando Atomic Design e testes unitários com Jest para garantir qualidade e escalabilidade das interfaces.</p>
+                    </article>
+
+                    <article class="item-trajetoria">
+                        <h3>Desenvolvedor Front-end</h3>
+                        <p class="instituicao">Seons Sistema de Gestão &middot; Itajaí, SC</p>
+                        <p class="periodo">set. 2018 - out. 2019</p>
+                        <p>Liderança técnica e atuação full stack em um novo produto: interfaces em Angular 6+ e APIs REST com Node.js (Hapi.js) e MongoDB, com testes em Jasmine e Jest.</p>
+                    </article>
+
+                    <article class="item-trajetoria">
+                        <h3>Analista de Sistemas</h3>
+                        <p class="instituicao">IT Power &middot; Barueri, SP</p>
+                        <p class="periodo">fev. 2017 - ago. 2017</p>
+                        <p>Primeira experiência profissional como desenvolvedor full stack, atendendo demandas de clientes com JavaScript e ASP e aprendendo, na prática, o ciclo de vida do software.</p>
+                    </article>
+                </section>
+
+            </div>
+
+            <aside class="coluna-lateral">
+
+                <section class="cartao">
+                    <h2>Competências</h2>
+                    <div class="competencias">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>Flexbox</span>
+                        <span>JavaScript</span>
+                        <span>Git</span>
+                        <span>GitHub</span>
+                        <span>Linux</span>
+                        <span>Redes de Computadores</span>
+                    </div>
+                </section>
+
+                <section id="hobbies" class="cartao">
+                    <h2>Interesses</h2>
+                    <div class="interesses">
+                        <span>Tecnologia</span>
+                        <span>Games</span>
+                        <span>Cinema</span>
+                        <span>Música</span>
+                        <span>Leitura</span>
+                        <span>Fotografia</span>
+                    </div>
+                </section>
+
+            </aside>
+
+        </div>
+
+    </main>
+
+    <footer class="rodape-site">
+        <p>&copy; 2024 Byte News - Jornal Digital do Campus. Todos os direitos reservados.</p>
+        <p>Desenvolvido por Rodrigo Alysson</p>
+    </footer>
+
+</body>
+</html>

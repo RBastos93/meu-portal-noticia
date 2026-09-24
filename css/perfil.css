@@ -1,0 +1,237 @@
+.menu-perfil {
+    background-color: #ffffff;
+    border-bottom: 1px solid #dddddd;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.menu-perfil ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.menu-perfil ul li a {
+    color: #1a237e;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 6px 14px;
+    border-radius: 20px;
+}
+
+.menu-perfil ul li a:hover {
+    background-color: #1a237e;
+    color: #ffffff;
+}
+
+.conteudo-perfil {
+    max-width: 960px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+.perfil-cabecalho {
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 25px;
+}
+
+.perfil-capa {
+    width: 100%;
+    height: 200px;
+    background-color: #e0e0e0;
+}
+
+.perfil-capa img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.perfil-topo {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    gap: 20px;
+    padding: 0 25px 25px;
+    margin-top: -60px;
+}
+
+.perfil-foto {
+    flex: 0 0 auto;
+    text-align: center;
+}
+
+.perfil-foto img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #ffffff;
+    background-color: #e0e0e0;
+    display: block;
+}
+
+.perfil-foto figcaption {
+    margin-top: 8px;
+    font-size: 13px;
+    color: #666666;
+    font-style: italic;
+}
+
+.perfil-identificacao {
+    flex: 1 1 300px;
+    padding-top: 65px;
+}
+
+.informacoes-perfil h2 {
+    font-size: 28px;
+    color: #1a237e;
+    margin-bottom: 4px;
+}
+
+.perfil-cargo {
+    font-size: 17px;
+    color: #333333;
+    margin-bottom: 2px;
+}
+
+.perfil-local {
+    font-size: 14px;
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 12px;
+}
+
+.perfil-badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.perfil-badges span {
+    background-color: #e8eaf6;
+    color: #1a237e;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 5px 12px;
+    border-radius: 15px;
+}
+
+.perfil-corpo {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    align-items: flex-start;
+}
+
+.coluna-principal {
+    flex: 2 1 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.coluna-lateral {
+    flex: 1 1 240px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.cartao {
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+    padding: 22px;
+}
+
+.cartao h2 {
+    font-size: 22px;
+    color: #1a237e;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #ff6d00;
+    padding-bottom: 8px;
+}
+
+.cartao p {
+    margin-bottom: 12px;
+    text-align: justify;
+}
+
+.item-trajetoria {
+    border-left: 3px solid #ff6d00;
+    padding-left: 15px;
+    margin-bottom: 18px;
+}
+
+.item-trajetoria h3 {
+    font-size: 18px;
+    color: #1a237e;
+    margin-bottom: 2px;
+}
+
+.item-trajetoria .instituicao {
+    font-size: 15px;
+    color: #333333;
+    margin-bottom: 2px;
+}
+
+.item-trajetoria .periodo {
+    font-size: 13px;
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 8px;
+}
+
+.competencias,
+.interesses {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.competencias span,
+.interesses span {
+    background-color: #f5f5f5;
+    border: 1px solid #dddddd;
+    color: #333333;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 6px 12px;
+    border-radius: 4px;
+}
+
+.interesses span {
+    background-color: #fff3e0;
+    border-color: #ffcc80;
+    color: #e65100;
+}
+
+@media (max-width: 600px) {
+    .perfil-topo {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .perfil-identificacao {
+        padding-top: 0;
+        flex-basis: 100%;
+    }
+
+    .informacoes-perfil h2 {
+        font-size: 24px;
+    }
+
+    .perfil-badges {
+        justify-content: center;
+    }
+}
